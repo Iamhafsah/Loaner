@@ -1,0 +1,355 @@
+:root{
+    --main-color: #435CCA;
+    --black-color :#000000;
+    --white-color:#ffffff;
+    --dark-color:#071c47;
+    --yellow-color: #f9f871;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+    color: var(--dark-color);
+    scroll-behavior: smooth;
+    background-image: radial-gradient(circle at center center, rgb(172,242,233) 0%, rgb(172,242,233) 7%,transparent 7%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255)); background-size: 16px 16px;
+}
+main{
+    flex: 1;
+}
+.logo{
+    font-family: 'Lobster', cursive;
+    font-size: 2.1rem;
+    margin-left: 3.2em;
+    color: var(--black-color);
+}
+.money-wave{
+    font-size: 1.3rem;
+    color: var(--black-color);
+}
+.menu{
+    display: none;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    border-bottom: 2px solid var(--dark-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.nav-ul{
+    display: flex;
+    margin: 0 5em;
+    flex-wrap: nowrap;
+}
+.nav-ul li{
+    list-style-type: none;
+    margin-left: 1.5em;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 1em;
+}
+.menu-bar{
+    position: fixed;
+    top: 3em;
+    right: 0;
+    height: 100vh;
+    background-color: var(--main-color);
+    opacity: .9;
+    padding: 6em;
+    text-align: center;
+    display: none;
+}
+.menu-bar li{
+    margin-bottom: 1em;
+    list-style-type: none;
+}
+.menu-bar li a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: bold;
+}
+.hide{
+    display: none;
+}
+.img-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin: 7rem 0;
+    padding: 2.5em;
+}
+.money-pic{
+    width: 35em;
+}
+.intro-text h1{
+    font-size:3rem;
+}
+.intro-text p{
+    line-height:1.7em ;
+}
+.intro-text button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: .9rem;
+    margin-top: 1em;
+    border-radius: 2em;
+    border: none;
+    background-color: var(--main-color);
+    box-shadow: 2px 1px 3px 1px var(--dark-color);
+}
+.intro-text a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+.steps{
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 2em;
+}
+.steps h1{
+    font-size: 2em;
+    color: var(--white-color);
+}
+.step-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+.box{
+    background-color:var(--white-color) ;
+    margin: 1em;
+    padding: 2em 2em 1em 2em;
+    border-radius: .3em;
+    width: 200px;
+    max-width: 250px;
+    height: 270px;
+    max-height: 300px;
+    box-shadow: 2px 1px 3px 1px var(--dark-color);
+}
+.sign-up-wrapper{
+    background-color: var(--main-color);
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+    margin: 0 auto;
+    border: 2px solid var(--dark-color);
+}
+.steps-img{
+ color: var(--white-color);   
+ margin-top: 1em;
+ font-size: 1.5em;
+}
+.online-transactions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin: 2rem 0;
+    padding: 4em;
+}
+.online-pic{
+    width: 30em;
+}
+.online-info h1{
+    font-size:3rem;
+}
+.online-info ul{
+    margin-left: -1em;
+}
+.online-info li{
+    line-height:1.7em ;
+    list-style-type: disc;
+}
+footer{
+    background-color: var(--main-color);
+    padding: 2em;
+    margin-top: 2em;
+    border-top: 2px solid var(--dark-color);
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.social{
+    font-size: 1.2em;
+    margin:1.2em 1.5em 0 0 ;
+    color: var(--white-color);
+}
+.address{
+    margin-top:1.5em;
+    font-weight: 500;
+    font-size: .9em;
+    line-height: 1.5em;
+    color: var(--white-color);
+}
+.email{
+    padding: .7em;
+    width: 20em;
+    border: none;
+    margin-top: 1.5em;
+    margin-right: -.6em;
+
+}
+.submit{
+    width: 5em;
+    padding: .75em;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    border: none;
+}
+.copyright{
+    text-align: center;
+    margin-bottom: -2em;
+    font-size: .9em;
+    color: var(--white-color);
+}
+.copyright a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+/* pseudo styling */
+.menu:hover{
+    cursor: pointer;
+}
+.nav-ul a:hover, .menu-bar a:hover{
+    color: var(--white-color);
+}
+.intro-text button a:hover{
+    color: var(--white-color);
+    transition: .5s;
+}
+input:required:valid {
+    border: 1px solid green;
+}
+/* responsiveness */
+@media screen and (max-width: 740px){
+    .logo{
+        font-size: 1.5rem;
+        margin-left: 1.4rem;
+    }
+    .money-wave{
+    font-size: 1rem;
+    }
+    .menu{
+        display: block;
+        /* margin-right: rem; */
+        font-size: 1.6rem;
+        padding: 1em;
+        color: var(--white-color);
+    }
+    .menu-bar{
+        display: block;
+    }
+    .nav-ul{
+        display: none;
+    }
+    .nav-bar li{
+        margin: 1em;
+    }
+    .money-pic{
+        width: 25em;
+    }
+    .intro-text h1{
+        font-size:3rem;
+        margin-left: 1em;
+    }
+    .intro-text button{
+        font-size: .9em;
+        margin-left: 9em;
+    }
+    .online-pic{
+        width: 20em;
+        margin-top: 2em;
+    }
+    .online-info h1{
+        font-size:3rem;
+        margin-left: 1em;
+    }
+    .online-info ul{
+        margin-left: 2em;
+    }
+    .online-info li{
+        line-height:1.7em ;
+        list-style-type: disc;
+    }
+    /* .step-1{
+        margin-top: -1em;
+    }
+    .step-4{
+        margin-top: 1em;
+    } */
+    .label{
+        display: none;
+    }
+    .email{
+        padding: .7em;
+        width: 20em;
+        border: none;
+    }
+    .submit{
+        width: 5em;
+        padding: .7em;
+        background-color: var(--dark-color);
+        color: var(--white-color);
+        border: none;
+    }
+}
+@media only screen and (min-width:1316px){
+    .step-1, .step-4{
+        margin-top: -5em;
+    }
+}
+@media only screen and (max-width:510px){
+    .money-pic{
+        width: 20em;
+    }
+    .intro-text h1{
+        font-size:2.2rem;
+        /* margin-left: 1em; */
+    }
+    .intro-text p{
+        font-size: .9em;
+    }
+    .intro-text button{
+        font-size: .9em;
+        margin-left: 7em;
+    }
+    .online-pic{
+        width: 18em;
+    }
+    .online-info h1{
+        font-size:2rem;
+        margin-left: 1em;
+    }
+    .online-info ul{
+        margin-left: 1em;
+    }
+}
+@media only screen and (max-width:415px){
+    .email{
+        margin-left: 2em;
+    }
+    .submit{
+        margin-left: 10em;
+        margin-top: .5em;
+    }
+    .copyright{
+        margin-top: 1em;
+    }
+}

@@ -1,0 +1,48 @@
+
+.log-in{
+    margin: 9em auto 5em auto;
+    max-width: 20em;
+    background-color: var(--white-color);
+    border-top: 3em solid var(--main-color);
+    border-radius: .5em;
+    box-shadow: 2px 1px 8px 2px var(--dark-color);
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.log-in-form{
+    margin: 0 auto;
+}
+.log-in-form input{
+    margin: .3em auto .7em auto;
+    padding: .5rem;
+    border:1px solid var(--main-color) ;
+    border-radius: .4em;
+    width: 16em;
+}
+.log-in-form label{
+    font-size: .9em;
+}
+.btn{
+    font-size: .9em;
+    font-weight: bold;
+    padding: .7rem;
+    margin: 1em;
+    border-radius: 1.5em;
+    width: 8em;
+    border: none;
+    background-color: var(--main-color);
+    box-shadow: 2px 1px 3px 1px var(--dark-color);
+    color: var(--white-color);
+}
+/* hover state */
+.btn:hover{
+    color: var(--dark-color);
+    cursor: pointer;
+    transition: .7s;
+}
+@media screen and (max-width: 740px){
+
+}

@@ -1,0 +1,55 @@
+.loan-details{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+.form1, .form2{
+    margin: 9em 2em 2em 2em;
+    background-color: var(--white-color);
+    border-top: 3em solid var(--main-color);
+    border-radius: .5em;
+    box-shadow: 2px 1px 8px 2px var(--dark-color);
+    padding: 1em 3em;
+}
+.loan-details input{
+    margin-bottom: .7em;
+    margin-top: .3em;
+    padding: .5rem;
+    border:1px solid var(--main-color) ;
+    border-radius: .4em;
+    width: 16em;
+}
+.loan-details label{
+    font-size: .9em;
+}
+#loan-purpose{
+    margin-top: 1em;
+    border:1px solid var(--main-color);
+    border-radius: .4em;
+}
+#submit-btn{
+    text-align: center;
+}
+.submit-btn{
+    font-size: 1em;
+    font-weight: bold;
+    padding: .7rem;
+    margin: 1em;
+    border-radius: 1.5em;
+    width: 8em;
+    border: none;
+    background-color: var(--main-color);
+    box-shadow: 2px 1px 3px 1px var(--dark-color);
+    color: var(--white-color);
+}
+
+/* hover state */
+.submit-btn:hover{
+    color: var(--white-color);
+    cursor: pointer;
+}
+@media screen and (max-width: 740px){
+    .form2{
+        margin-top: 2em;
+    }
+}
