@@ -1,6 +1,6 @@
 
 .log-in{
-    margin: 9em auto 5em auto;
+    margin: 9em auto 2em auto;
     max-width: 20em;
     background-color: var(--white-color);
     border-top: 3em solid var(--main-color);
@@ -36,13 +36,27 @@
     background-color: var(--main-color);
     box-shadow: 2px 1px 3px 1px var(--dark-color);
     color: var(--white-color);
-    background-image: linear-gradient(45deg,#435CCA,#BC61AF);
+}
+.contact-support{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+    font-size: .9em;
+}
+.forgot-password{
+    margin-left: 3em;
+}
+.contact-support a{
+    color: var(--main-color);
+    text-decoration: none;
 }
 /* hover state */
 .btn:hover{
     color: var(--dark-color);
     cursor: pointer;
     transition: .7s;
+    background-image: linear-gradient(45deg,#435CCA,#BC61AF);
 }
 @media screen and (max-width: 740px){
 

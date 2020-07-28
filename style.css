@@ -58,19 +58,24 @@ main{
     font-weight: 700;
     font-size: 1em;
 }
+.exit-btn{
+    font-size: 2em;
+    position: relative;
+    top: -1.8em;
+    color: var(--white-color);
+}
 .menu-bar{
     position: fixed;
-    top: 3em;
     right: 0;
     height: 100vh;
     background-color: var(--main-color);
-    opacity: .9;
-    padding: 6em;
+    opacity: .98;
+    padding: 7em;
     text-align: center;
     display: none;
 }
 .menu-bar li{
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     list-style-type: none;
 }
 .menu-bar li a{
@@ -107,7 +112,6 @@ main{
     border: none;
     background-color: var(--main-color);
     box-shadow: 2px 1px 3px 1px var(--dark-color);
-    background-image: linear-gradient(45deg,#435CCA,#BC61AF);
 }
 .intro-text a{
     text-decoration: none;
@@ -173,7 +177,6 @@ main{
 }
 .online-info li{
     line-height:1.7em ;
-    list-style-type: disc;
 }
 footer{
     background-color: var(--main-color);
@@ -228,14 +231,26 @@ footer{
 /* pseudo styling */
 .menu:hover{
     cursor: pointer;
+    color: var(--dark-color);
 }
 .nav-ul a:hover, .menu-bar a:hover{
     color: var(--dark-color);
     transition: .7s;
 }
+.exit-btn:hover{
+    cursor: pointer;
+    color: var(--dark-color);
+}
 .intro-text button a:hover{
     color: var(--dark-color);
     transition: .7s;
+}
+.intro-text button:hover{
+    background-image: linear-gradient(45deg,#435CCA,#BC61AF);
+}
+.submit:hover{
+    cursor: pointer;
+    font-weight: bold;
 }
 input:required:valid {
     border: 1px solid green;
@@ -251,7 +266,6 @@ input:required:valid {
     }
     .menu{
         display: block;
-        /* margin-right: rem; */
         font-size: 1.6rem;
         padding: 1em;
         color: var(--white-color);
@@ -289,7 +303,6 @@ input:required:valid {
     }
     .online-info li{
         line-height:1.7em ;
-        list-style-type: disc;
     }
     .label{
         display: none;
@@ -352,4 +365,4 @@ input:required:valid {
     .copyright{
         margin-top: 1em;
     }
-}
+}}

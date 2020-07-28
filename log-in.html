@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loaner Sign up page</title>
+    <title>Loaner Log In page</title>
     <link rel="stylesheet" href="img/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -19,26 +19,27 @@
             <div> <i class="fas fa-bars menu"></i></div
                 <nav>
                     <ul class="nav-ul">
-                        <li><a href="/index.html">About</a></li>
-                        <li><a href="/sign-up.html">Sign Up</a></li>
-                        <li><a href="/log-in.html">Log in</a></li>
+                        <li><a href="Loaner/index.html">About</a></li>
+                        <li><a href="Loaner/sign-up.html">Sign Up</a></li>
+                        <li><a href="Loaner/log-in.html">Log in</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </header>
             <div class="menu-div hide">
                     <ul class="menu-bar">
-                        <li><a href="/index.html">About</a></li>
-                        <li><a href="/sign-up.html">Sign Up</a></li>
-                        <li><a href="/log-in.html">Log in</a></li>
+                        <i class="fas fa-times exit-btn"></i>
+                        <li><a href="Loaner/index.html">About</a></li>
+                        <li><a href="Loaner/sign-up.html">Sign Up</a></li>
+                        <li><a href="Loaner/log-in.html">Log in</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
             </div>
         </header>
         <main>
-            <form action="" class="log-in">
+            <form action="Loaner/dashboard.html" class="log-in">
                 <div class="log-in-form">
-                    <h2>Input your details</h2>
+                    <h2>Input your details to log in</h2>
                     <label for="name">Full name</label> <br>
                     <input type="text" name="name" id="name" required> <br>
 
@@ -49,6 +50,10 @@
                     <input type="submit" value="Log In" class="btn">
                 </div>
             </form>
+            <div class="contact-support">
+                <p>New user?<a href="Loaner/sign-up.html"> Create account</a></p>
+                <p class="forgot-password">Forgot Password?<a href="mailto:hafsyezinne@gmail.com"> Contact Support</a></p>
+            </div>
         </main>
         <footer id="contact">
             <div class="footer-links">

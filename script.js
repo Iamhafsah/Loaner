@@ -1,8 +1,14 @@
 let menu = document.querySelector('.menu');
-let menudiv = document.querySelector('.menu-div');
+let menuDiv = document.querySelector('.menu-div');
+let exit = document.querySelector('.exit-btn');
+let menuWrapper = document.querySelector('menubar-wrapper');
 
 menu.addEventListener('click', showMenu);
+exit.addEventListener('click', closeMenu);
 
 function showMenu(){
-    menudiv.classList.toggle('hide');
+    menuDiv.classList.remove('hide');
 }
+function closeMenu(){
+    menuDiv.classList.add('hide');
+} 
