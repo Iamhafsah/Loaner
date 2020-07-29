@@ -101,7 +101,7 @@ main{
     font-size:3rem;
 }
 .intro-text p{
-    line-height:1.7em ;
+    line-height:1.7em;
 }
 .intro-text button{
     font-size: 1em;
@@ -328,14 +328,9 @@ input:required:valid {
 @media only screen and (min-width:935px){
     .copyright{
         margin-left: -7em;
+    }
 }
 @media only screen and (max-width:510px){
-    .money-pic{
-        width: 20em;
-    }
-    .intro-text h1{
-        font-size:2.2rem;
-    }
     .intro-text p{
         font-size: .9em;
     }
@@ -354,15 +349,40 @@ input:required:valid {
         margin-left: 1em;
     }
 }
-@media only screen and (max-width:415px){
+@media only screen and (max-width:435px){
+    .money-pic{
+        width: 18em;
+    }
+    .intro-text h1{
+        font-size:1.5rem;
+        margin-left: 2.5em;
+    }
+    .intro-text p{
+        line-height: 1.5em;
+        font-size: .8em;
+    }
+    .intro-text button{
+        margin-left: 5em;
+        padding:.8em;
+    }
+    .online-info h1{
+        font-size: 1.5rem;
+    }
+    .online-info ul{
+        margin-left: -.5em;
+    }
+    .online-pic{
+        width: 18em;
+    }
     .email{
-        margin-left: 2em;
+        width: 16em;
+        margin-left: 3em;
     }
     .submit{
-        margin-left: 10em;
+        margin-left: 9em;
         margin-top: .5em;
     }
     .copyright{
-        margin-top: 1em;
+        margin-top: 1.5em;
     }
-}}
+}
