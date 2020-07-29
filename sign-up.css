@@ -55,3 +55,14 @@
         margin-top: 2em;
     }
 }
+@media screen and (max-width: 400px){
+    .loan-details input{
+        width: 12em;
+    }
+    #loan-purpose{
+        margin-top: 1em;
+        border:1px solid var(--main-color);
+        border-radius: .4em;
+        width: 12.7em;
+    }
+}

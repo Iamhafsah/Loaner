@@ -376,7 +376,7 @@ input:required:valid {
     }
     .email{
         width: 16em;
-        margin-left: 3em;
+        margin-left: 5em;
     }
     .submit{
         margin-left: 9em;
@@ -384,5 +384,30 @@ input:required:valid {
     }
     .copyright{
         margin-top: 1.5em;
+    }
+    .steps h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:362px){
+    .email{
+        margin-right: 3em;
+    }
+    .submit{
+        margin-left: 11em;
+
+    }
+}
+@media screen and (max-width:345px){
+    .steps h2{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:335px){
+    .email{
+        margin-left: 1.5em;
+    }
+    .submit{
+        margin-left: 7.5em;
     }
 }

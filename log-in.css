@@ -40,6 +40,7 @@
 .contact-support{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin-bottom: 3em;
     font-size: .9em;
@@ -58,6 +59,19 @@
     transition: .7s;
     background-image: linear-gradient(45deg,#435CCA,#BC61AF);
 }
-@media screen and (max-width: 740px){
-
+@media screen and (max-width: 450px){
+.log-in-form input{
+    width: 12em;
+}
+.log-in{
+    padding: 1em;
+    max-width: 14em;
+    text-align: center;
+}
+.contact-support{
+    flex-direction: column;
+}
+.forgot-password{
+    margin-left: -.2em;
+}
 }
