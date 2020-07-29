@@ -73,12 +73,14 @@
     .first-box{
         margin-left: 1em;
     }
+    .dashboard{
+        font-size: 1em;
+    }
 }
 @media screen and (max-width:325px){
     .bottom{
         margin-top: 2em;
         border-radius: .6em;
-        line-height: em;
     }
 }
 
