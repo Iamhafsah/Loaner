@@ -22,13 +22,13 @@ main{
 }
 .logo{
     font-family: 'Lobster', cursive;
-    font-size: 2.1rem;
+    font-size: 2rem;
     margin-left: 3.2em;
-    color: var(--black-color);
+    color: var(--white-color);
 }
 .money-wave{
     font-size: 1.3rem;
-    color: var(--black-color);
+    color: var(--white-color);
 }
 .menu{
     display: none;
@@ -38,7 +38,7 @@ main{
     justify-content: space-between;
     align-items: center;
     background-color: var(--main-color);
-    border-bottom: 2px solid var(--dark-color);
+    /* border-bottom: 2px solid var(--dark-color); */
     position: fixed;
     width: 100%;
     top: 0;
@@ -112,6 +112,7 @@ main{
     border: none;
     background-color: var(--main-color);
     box-shadow: 2px 1px 3px 1px var(--dark-color);
+    outline: none;
 }
 .intro-text a{
     text-decoration: none;

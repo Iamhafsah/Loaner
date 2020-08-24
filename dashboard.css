@@ -40,6 +40,7 @@
     margin-top: 1em;
     border-radius: .6em;
     line-height: .7em;
+
 }
 .loan-boards p{
     font-size: .9em;
@@ -75,6 +76,7 @@
     }
     .dashboard{
         font-size: 1em;
+        margin-top: 6em;
     }
 }
 @media screen and (max-width:325px){
